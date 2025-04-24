@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Memorable Events</title>
+        <link rel="stylesheet" href="../css/site.css">
+    </head>
+    <body>
+        <nav id="headnav">
+            <a href="../index.html" target="_self"> Home </a>
+            <a href="../webpages/service.html" target="_self"> Services</a>
+            <a href="../webpages/programs.html" target="_self"> Top Destinations</a>
+        </nav>
+       
+        <main>
+            <div id="wrapper">
+                <h2>Our Services</h2> 
+                <div class="service-content">
+                    <div class="service-item">
+                        <div class="img-div">
+                            <img src="../imgs/destination.jpg" alt="img-text">
+                        </div>
+                        <div class="service-desc">
+                            <h2>Destination Weddings</h2>
+                                 <p>
+                                    We will make it happen if you can dream it.
+                                    Our wedding and honeymoon specialists will dedicate time to discussing every detail to understand your every need.
+
+                                    We pride ourselves in making this the most stress-free process and insure you are extremely happy with the outcome.
+                                 </p>
+                        </div>
+                    </div>
+                    <div class="service-item">
+                        <div class="img-div">
+                            <img src="../imgs/planimg.jpg" alt="img-what-i-do">
+                        </div>
+                        <div class="service-desc">
+                            <h2>Personalized planning</h2>
+                            <p>Our team of specialists is dedicated to overseeing every aspect of your travel experience, ensuring a seamless and enjoyable journey. We take pride in our ability to coordinate various elements, from transportation to accommodations, to provide you with a stress-free travel experience..</p>
+
+                        </div>
+                        
+                    </div>
+
+                </div>
+                <h2>Register for Destination Wedding Enquiry</h2>
+                <form action="https://webdevbasics.net/scripts/demo.php" method="post" name="reg_form" id="reg_form">
+                    <fieldset>
+                        <legend>Personal information</legend>
+                        <div>
+                            <label for="name">Name:</label>
+                            <section>
+                                <input type="text" id="name" name="name">
+                                <span>*</span>
+                            </section>
+                        </div>
+                        <div>
+                            <label for="p_name">Partner's Name:</label>
+                            <section>
+                                <input type="text" id="p_name" name="p_name">
+                                <span>*</span>
+                            </section>
+                        </div>
+                        <div>
+                            <label for="email">Email Address:</label>
+                            <section>
+                                <input type="text" id="email" name="email" title="Email Field">
+                                <span>*</span>
+                            </section>
+                        </div>
+                        <div>
+                            <label for="phone">Phone Number:</label>
+                            <section>
+                                <input type="text" id="phone" name="phone" placeholder="999-999-9999">
+                                <span>*</span>
+                            </section>
+                        </div>                      
+                        
+                    </fieldset>
+                    <fieldset>
+                        <legend>Event Details</legend>
+                        <div>
+                            <label for="event_type">Type of Event:</label>
+                            <section>
+                                <input type="text" id="event_type" name="event_type">
+                                <span>*</span>
+                            </section>
+                        </div>
+                        <div>
+                            <label for="destination">Destinations:</label>
+                            <section>
+                                <textarea type="text" id="destination" name="destination" placeholder="What destinations are you interested in ?"></textarea>
+                                <span>*</span>
+                            </section>
+                        </div>
+                        <div>
+                            <label for="event_time">Event Plan:</label>
+                            <section>
+                                <textarea type="text" id="event_time" name="event_time" placeholder="What month(s) and year are you planning ?"></textarea>
+                                <span>*</span>
+                            </section>
+                        </div>
+                        <div id="form_button">
+                            <label>&nbsp;</label>
+                            <input type="submit" id="submit" name="submit" value="Submit">
+                            <input type="reset" id="reset" name="reset" value="Reset">
+                        </div>
+                        
+                    </fieldset>
+
+               </form> 
+                               
+            </div>
+        
+        </main>
+        <footer>
+            <div id="footerdiv" class="row">
+                <div class="column">
+                    <h3>Newsletter</h3>
+                    <p>Subscribe to our newsletter to know the latest news and updates.</p>
+                    <button id="btn_subs">Subscribe</button>
+                    <button id="btn_unsub" class="hide">Unsubscribe</button>
+                    <p id="p_thnks" class="hide"><strong> Thanks for Subscribing</strong> </p>
+                </div>
+                <div class="column" id="quicklinks">
+                    <h3>Quick Links</h3>
+                    <nav>
+                        <a href="../index.html" target="_self"> Home </a>
+                        <a href="../webpages/service.html" target="_self"> Services</a>
+                        <a href="../webpages/programs.html" target="_self"> Top Destinations</a>
+                    </nav>                  
+                </div>
+                <div class="column" id="contactus">
+                    <h3>Contact Us</h3>
+                    <address>
+                        <p>456 Daniel Street</p>
+                        <p>Waterloo, Ontario N2H 3T7, Canada</p>
+                        <p>Phone: <a href="tel:5197775220">588-457-3823</a></p>
+                    </address>
+                </div>
+            </div>
+            <p id="copyright">Copyright &copy; 2023 Memorable Events<br>Name and Student id: Jesly James, 8940056</p>
+        </footer>
+        <script src="http://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="../js/service.js"></script>
+    </body>
+
+</html>
