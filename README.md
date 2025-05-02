@@ -14,8 +14,3 @@ A responsive Event Management website built using **HTML, CSS, JavaScript, and j
 - **CSS3**
 - **JavaScript**
 - **jQuery**
-
-## Demo 
-[https://jeslyjames.github.io/Event-Management-Website/
-](https://jeslyjames.github.io/Event-Management-Website/  
-)
